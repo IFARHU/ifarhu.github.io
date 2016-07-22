@@ -1,0 +1,13 @@
+---
+layout: post
+title: Conozca las Novedades Tecnológicas de la DTI - IFARHU
+date: 2016-7-21
+comments: true
+archive: false
+---
+
+##Se espera tener incremento de productividad, y tiempos más cortos de Dev-Ops
+
+Con el emprendimiento de nuevos proyectos y en nuevos entornos, el departamento de desarrollo de software se ha tomado la labor de atreverse a nuevas y ingeniosas formas del levantamiento de proyecto y de fabricación de entornos de programación automatizados.
+
+Se desea que esta faena resulte en resultados positivos para los proyectos que se lleven acabo con exito.

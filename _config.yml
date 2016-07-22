@@ -1,0 +1,27 @@
+name: Ifarhu Dev Blog
+description:  Jekyll theme
+
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
+
+baseurl: /
+
+site:
+  url:
+    - /
+
+permalink: /:year/:month/:title/
+owner:
+    name: #
+    twitter: #
+    github: #
+    disqus_shortname: #
+
+ga_id: #
+ga_username: #
