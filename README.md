@@ -1,44 +1,58 @@
 ![favicon](https://raw.github.com/iamnii/wangana/master/favicon.png) Wangana - Jekyll Theme
 ==============
 
-Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog. Created with love by [iamnii](https://twitter.com/_iamnii).
+### Arrancando el proyecto en entornos Ubuntu o Homestead
 
-* Demo [here](http://iamnii.github.io/wangana/)
+Clonar el proyecto de [IFARHU - Blog](git@gitlab.ifarhu.gob.pa:a.marucci/ifarhu-blog.git).
 
-## Screenshot
-![screenshot](https://raw.github.com/iamnii/wangana/master/assets/images/wangana.png)
+- `git clone git@gitlab.ifarhu.gob.pa:a.marucci/ifarhu-blog.git`
 
-## Contributing
-1. Fork the theme ( https://github.com/iamnii/wangana/fork ) The `master` branch is for development and pull requests. The `gh-pages` branch is for the demo page; don't bother.
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Dirigirse al root de su sistema.
 
-## Issues
-[Open](https://github.com/iamnii/wangana/issues/new) issues if you run into trouble or have suggestions. Pull Requests always welcome.
+- `cd`
 
-## Installation & Usage
-1 > [Download](https://github.com/iamnii/wangana/archive/master.zip) package
+Utilizaremos rbenv para instalar ruby a nuestro proyecto, Copie los siguientes comandos en su terminal.
 
-2 > Fill in the details of the configuration file (/_config.yml) by uncommenting the differents and edit to taste
-Edit: _config.yml (general options), main.css (theme colors & fonts)
-``` bat
-wangana/
-├── _config.yml
-├── _assets/
-    ├── _scss/
-        ├── main.scss
-```
+- `git clone https://github.com/rbenv/rbenv.git ~/.rbenv`
 
-3 > Run locally with the following commands while in the root directory and view in a browser at localhost:4000
-``` bat
-$ jekyll build
-# Compile and build site files
+- `echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc`
 
-$ jekyll serve --watch
-# Serve site locally
-```
+- `echo 'eval "$(rbenv init -)"' >> ~/.bashrc`
 
-## Copyright & License
-The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
+- `exec $SHELL`
+
+- `git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build`
+
+- `echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc`
+
+- `exec $SHELL`
+
+- `rbenv install 2.3.1`
+
+- `rbenv global 2.3.1`
+
+- `ruby -v`
+
+- `gem install jekyll`
+
+Volver a la raiz del proyecto Blog.
+
+- `cd ../path/to/blog`
+
+Instalar el gem bundler.
+
+- `gem install bundler`
+
+Levantar el servicio de Jekyll.
+
+- `Jekyll Serve`
+
+Si se desea cambiar el host del jekyll puede usar el siguiente codigo.
+
+- `jekyll serve --host=192.168.10.10`
+
+En caso que Jekyll no hace la compilación de archivos con cambios, puede utilizar.
+
+- `jekyll serve --host=192.168.10.10 --force_polling`
+
+### Basado en el template de Jekyll [Wangana](https://github.com/iamnii/wangana)
