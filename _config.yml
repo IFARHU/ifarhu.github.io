@@ -1,5 +1,5 @@
-name: Ifarhu Dev Blog
-description:  Jekyll theme
+name: IFARHU
+description:  What's new
 
 sass:
   sass_dir: assets/css/_sass
@@ -25,3 +25,6 @@ owner:
 
 ga_id: #
 ga_username: #
+
+exclude:
+  - node_modules
