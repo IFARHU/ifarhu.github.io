@@ -1,5 +1,6 @@
-name: IFARHU
-description:  What's new
+name: What's new
+description:  IFARHU
+categories: ["novedades"]
 
 sass:
   sass_dir: assets/css/_sass
@@ -8,7 +9,6 @@ sass:
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
-
 
 baseurl: /
 

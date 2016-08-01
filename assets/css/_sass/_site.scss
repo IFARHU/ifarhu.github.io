@@ -117,7 +117,6 @@ main {position: relative;}
   }
   #body {
     min-height: 600px;
-    overflow: hidden;
   }
 }
 
@@ -416,4 +415,8 @@ pre {
     .leaders-left  {width: 40%;}
     .leaders-right {width: 60%;}
   } 
+}
+
+.test {
+  color:pink;
 }

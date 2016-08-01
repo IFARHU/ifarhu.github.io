@@ -8,10 +8,10 @@ $lnk-highlight-color: #333;
 
 /* IMPORT CSS FILES */
 // base css
-@import "site";
+@import "_site";
 // syntax highlighting
-@import "syntax";
+@import "_syntax";
 // bootstrap
-@import "bootstrap.min";
+@import "_bootstrap.min";
 // fontawesome icons
-@import "font-awesome.min";
+@import "_font-awesome.min";
