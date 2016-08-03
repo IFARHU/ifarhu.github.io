@@ -4,6 +4,7 @@ title: Creando un blog utilizando Jekyll
 date: 2016-7-21
 comments: true
 archive: false
+category: Tutorials
 ---
 
 ### Arrancando un proyecto Jekyll en entornos Ubuntu o Homestead

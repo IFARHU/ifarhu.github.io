@@ -4,6 +4,7 @@ title: Conozca las novedades tecnológicas de la DTI - IFARHU
 date: 2016-7-21
 comments: true
 archive: false
+category: Tech
 ---
 
 ### Con las implementaciones nuevas, el departamento de desarrollo espera tener incremento de productividad, y tiempos más cortos de Dev-Ops

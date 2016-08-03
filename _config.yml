@@ -1,6 +1,6 @@
 name: What's new
 description:  IFARHU
-categories: ["novedades"]
+categories: ["Tech News", "Tutorials"]
 
 sass:
   sass_dir: assets/css/_sass
