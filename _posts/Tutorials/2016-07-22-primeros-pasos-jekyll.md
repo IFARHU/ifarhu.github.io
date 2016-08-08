@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creando un blog utilizando Jekyll
+title: Primeros pasos con jekyll
 date: 2016-7-21
 comments: true
 archive: false
