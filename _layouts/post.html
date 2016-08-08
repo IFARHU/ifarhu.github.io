@@ -1,13 +1,16 @@
 ---
 layout: default
 ---
+<!-- Buscar detalles de autor y asignarlo a nuestra variable local author -->
+{% assign author = site.data.authors[page.author] %}
+
 <div class="col-sm-12">
 	<div class="page">
 		<div class="page-title">
 			{{ page.title }}
 			<div class="meta">
-				{% if site.owner.name %}
-				By {{site.owner.name}},
+				{% if author %}
+					By {{ author.name }}
 				{% endif %}
 				<time class="timeago" datetime="{{ page.date }}">{{ page.date |  date: "%A %-d %B %Y" }}</time>,
 				<a href="{{ page.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>

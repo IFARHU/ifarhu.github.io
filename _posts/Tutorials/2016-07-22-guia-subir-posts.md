@@ -5,6 +5,7 @@ date: 2016-7-21
 comments: true
 archive: false
 category: Tutorials
+author: angelo
 ---
 
 ### Arrancando un proyecto Jekyll en entornos Ubuntu o Homestead
@@ -76,3 +77,19 @@ En caso que Jekyll no hace la compilación de archivos con cambios, puede utiliz
 ~~~
 jekyll serve --host=192.168.10.10 --force_polling
 ~~~
+
+<hr>
+### Tips
+Recuerde que puede bajar el servicio jekyll en cualquier momento con los siguientes comandos:
+
+~~~
+cmd + c
+~~~
+
+Para usuarios Windows o Ubuntu
+
+~~~
+ctrl + c
+~~~
+
+Normalmente se baja el servicio jekyll cuando se requiere que se actualize alguna configuración colocada en el en *_config.yml*. 
