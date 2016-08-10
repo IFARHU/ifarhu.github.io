@@ -1,9 +1,7 @@
 # Author details.
 angelo:
-    name: Angelo Marucci
-    email: a.marucci@ifarhu.gob.pa
-    web: http://twitter.com/sirrawlins
+  name: Angelo Marucci
+  email: a.marucci@ifarhu.gob.pa
 rodney:
-    name: Rodney Guillén
-    email: r.guillen@ifarhu.gob.pa
-    web: http://twitter.com/robingeall
+  name: Rodney Guillén
+  email: r.guillen@ifarhu.gob.pa
