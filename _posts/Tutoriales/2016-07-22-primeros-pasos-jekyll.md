@@ -1,16 +1,18 @@
 ---
 layout: post
-title: Primeros pasos con jekyll
+title: Primeros pasos con Jekyll
 date: 2016-7-21
 comments: true
 archive: false
-category: Tutorials
+category: Tutoriales
 author: angelo
 ---
 
-### Arrancando un proyecto Jekyll en entornos Ubuntu o Homestead
+Jekyll es un sistema para crear sitios web basados en archivos estáticos (archivos de textos y otros), escrito sobre Ruby, un lenguaje multipropósito fácil de aprender. En la DTI utilizamos ampliamente Jekyll para crear páginas informativas de uso interno. En este tutorial aprenderemos a utilizar Jekyll, utilizando de base el nuevo blog de la DTI.
 
-Clonar el proyecto de [IFARHU - Blog](git@gitlab.ifarhu.gob.pa:a.marucci/ifarhu-blog.git).
+## Arrancando un proyecto Jekyll en entornos Ubuntu o Homestead
+
+Clonar el proyecto de [IFARHU - Blog](git@github.com:IFARHU/IFARHU.git).
 
 ~~~
 git clone git@gitlab.ifarhu.gob.pa:a.marucci/ifarhu-blog.git
@@ -78,8 +80,7 @@ En caso que Jekyll no hace la compilación de archivos con cambios, puede utiliz
 jekyll serve --host=192.168.10.10 --force_polling
 ~~~
 
-<hr>
-### Tips
+## Tips
 Recuerde que puede bajar el servicio jekyll en cualquier momento con los siguientes comandos:
 
 ~~~
@@ -92,4 +93,4 @@ Para usuarios Windows o Ubuntu
 ctrl + c
 ~~~
 
-Normalmente se baja el servicio jekyll cuando se requiere que se actualize alguna configuración colocada en el en *_config.yml*. 
+Normalmente se baja el servicio jekyll cuando se requiere que se actualize alguna configuración colocada en el en *_config.yml*.

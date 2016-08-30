@@ -1,14 +1,14 @@
 <div class="share">
-    <p>Posted:
+    <p>Escrito:
         <i>
             {{ page.date |  date: "%A %-d %B %Y" }}
         </i>
-        <a class="pull-right" href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}&text={{ page.title }}&via={{ site.owner.twitter }}" target="_blank">
-            <i class="fa fa-retweet" style="color:red;"></i> Share
-        </a>
+    </p>
+    <p>
+        <div class="addthis_sharing_toolbox"></div>
     </p>
     <ul>
-        <li>You might also like:</li>
+        <li>Quizás también te interese:</li>
         <ul>
         {% for post in site.related_posts limit:3 %}
             <li>
@@ -18,6 +18,10 @@
         </ul>
     </ul>
 </div>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56530b0f6f62339d"></script>
+
 {% if page.comments %}
 <div class="comments">
     <div id="disqus_thread"></div>

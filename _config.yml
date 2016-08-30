@@ -1,6 +1,6 @@
-name: IFARHU
-description:  What's new
-categories: ["Tech News", "Tutorials"]
+name: IFARHU DTI Blog
+description:  Blog de la Dirección de Tecnología Informática
+categories: ["Tecnología", "Tutoriales"]
 
 sass:
   sass_dir: assets/css/_sass
@@ -18,12 +18,12 @@ site:
 
 permalink: /:year/:month/:title/
 owner:
-    name: #
-    twitter: #
+    name: IFARHU
+    twitter: IFARHU
     github: /IFARHU/
-    disqus_shortname: #
+    disqus_shortname: dti-blog
 
-ga_id: #
+ga_id: UA-62484137-3
 ga_username: #
 
 exclude:
