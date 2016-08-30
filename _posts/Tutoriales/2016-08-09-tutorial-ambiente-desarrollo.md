@@ -88,7 +88,7 @@ mkdir C:\Hyper-V
 
 ~~~shell
 $vm = New-VM -Name WindowsServer2012R2Core -MemoryStartupBytes 4GB -NewVHDPath "C:\Hyper-V\WindowsServer2012R2Core.vhdx" -NewVHDSizeBytes 40GB -Path "C:\Hyper-V" -SwitchName RedInterna
-$vm | Add-VMDvdDrive -Path "\\10.252.164.126\Desarrollo de Sistemas\Software\Windows_Svr_Std_and_DataCtr_2012_R2_64Bit_English_-3_MLF_X19-53588.ISO"
+$vm | Add-VMDvdDrive -Path "\\###.###.###.###\..\Windows_Svr_Std_and_DataCtr_2012_R2_64Bit_English_-3_MLF_X19-53588.ISO"
 $vm | Set-VM -AutomaticStartAction StartIfRunning -AutomaticStopAction ShutDown
 $vm | Start-VM
 ~~~
