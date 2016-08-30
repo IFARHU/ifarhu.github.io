@@ -4,11 +4,9 @@ title: Categories
 ---
 <div class="col-sm-12">
 	<div class="page">
-
-
-	<!-- Category loop logic -->
-	<h1>Noticias del momento</h1>
-		{% for post in site.categories.Tech %}
+		<!-- Category loop logic -->
+		<h1>Noticias del momento</h1>
+		{% for post in site.categories.Tecnologia %}
 			{% if post.archive == false %}
 			<div class="page-item">
 				<div class="col-sm-8">
@@ -18,14 +16,6 @@ title: Categories
 						<li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
 					</ul>
 				</div>
-				<div class="col-sm-4 hide-on-phone">
-					<ul class="page-item-title pull-right meta">
-						<li><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-						<li><a href="{{ post.url | prepend: site.url }}">more <i class="fa fa-ellipsis-h"></i></a></li>
-						<li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
-						</li>
-					</ul>
-				</div>
 				<div class="col-sm-12 page-item-body">
 					{{post.excerpt}}
 				</div>
@@ -33,8 +23,8 @@ title: Categories
 			{% endif %}
 		{% endfor %}
 
-	<h1>Tutoriales</h1>
-		{% for post in site.categories.Tutorials %}
+		<h1>Tutoriales</h1>
+		{% for post in site.categories.Tutoriales %}
 			{% if post.archive == false %}
 			<div class="page-item">
 				<div class="col-sm-8">
@@ -60,6 +50,7 @@ title: Categories
 		{% endfor %}
 	</div>
 </div>
+
 <script>
 $(document).ready(function() {
 	$(".page").children().first().find(".page-item-body").css( "display", "block" );

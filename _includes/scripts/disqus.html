@@ -6,7 +6,7 @@ var disqus_shortname = '{{ site.owner.disqus_shortname }}'; // required: replace
 var disqus_identifier = '{{ page.path | split:'/' | last | cgi_escape }}';
 var disqus_url = '{{ site.url }}{{ page.url | uri_escape }}';
 **/
-   
+
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function() {
     var dsq = document.createElement('script');
@@ -16,7 +16,6 @@ var disqus_url = '{{ site.url }}{{ page.url | uri_escape }}';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 })();
 {% endif %}
-
 
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = '{{ site.owner.disqus_shortname }}'; // required: replace example with your forum shortname

@@ -13,14 +13,6 @@ layout: default
                         <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-4 hide-on-phone">
-                    <ul class="page-item-title pull-right meta">
-                        <li><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                        <li><a href="{{ post.url | prepend: site.url }}">more <i class="fa fa-ellipsis-h"></i></a></li>
-                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
-                        </li>
-                    </ul>
-                </div>
                 <div class="col-sm-12 page-item-body">
                     {{post.excerpt}}
                 </div>
@@ -29,6 +21,7 @@ layout: default
         {% endfor %}
     </div>
 </div>
+
 <script>
 $(document).ready(function() {
     $(".page").children().first().find(".page-item-body").css( "display", "block" );
