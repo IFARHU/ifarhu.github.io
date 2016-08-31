@@ -12,13 +12,11 @@ Jekyll es un sistema para crear sitios web basados en archivos estáticos (archi
 
 ## Arrancando un proyecto Jekyll en entornos Ubuntu o Homestead
 
-Clonar el proyecto de [IFARHU - Blog](git@github.com:IFARHU/IFARHU.git).
+Clonar el proyecto de [IFARHU - Blog](https://github.com/IFARHU/ifarhu.github.io).
 
 ~~~
-git clone git@gitlab.ifarhu.gob.pa:a.marucci/ifarhu-blog.git
+git https://github.com/IFARHU/ifarhu.github.io.git
 ~~~
-
-Dirigirse al root de su sistema.
 
 ~~~
 cd
@@ -94,3 +92,10 @@ ctrl + c
 ~~~
 
 Normalmente se baja el servicio jekyll cuando se requiere que se actualize alguna configuración colocada en el en *_config.yml*.
+
+~~~
+bundle exec jekyll serve --host=192.168.10.10
+~~~
+
+En caso que se esté utilizando ruby bundle, entonces debe anexar el siguiente prefijo a los comandos de jekyll.
+
