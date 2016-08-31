@@ -10,7 +10,6 @@ author: angelo
 
 Este tutorial asume que hayas [instalado correctamente jekyll ]({{site.url}}/posts/2016-07-22-primeros-pasos-jekyll.md)en tu ambiente correspondiente y adicionalmente tengas clonado el repositorio de [IFARHU - DTI Blog](https://github.com/IFARHU/ifarhu.github.io)
 
-
 ### Pasos para contribuir utilizando git y tu editor de texto de preferencia
 
 1\. Crear un nuevo branch en el proyecto con algún nombre simbólico para la creación del nuevo archivo y cualquier modificación adicional que se requiera.
