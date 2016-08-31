@@ -81,8 +81,6 @@ jekyll serve --host=192.168.10.10 --force_polling
 ## Tips
 Recuerde que puede bajar el servicio jekyll en cualquier momento con los siguientes comandos:
 
-
-
 ~~~
 cmd + c
 ~~~
