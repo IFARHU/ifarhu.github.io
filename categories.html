@@ -5,7 +5,7 @@ title: Categories
 <div class="col-sm-12">
 	<div class="page">
 		<!-- Category loop logic -->
-		<h1>Noticias del momento</h1>
+		<h2>Noticias del momento</h2>
 		{% for post in site.categories.Tecnologia %}
 			{% if post.archive == false %}
 			<div class="page-item">
@@ -23,7 +23,26 @@ title: Categories
 			{% endif %}
 		{% endfor %}
 
-		<h1>Tutoriales</h1>
+		<!-- Category loop logic -->
+		<h2>Noticias de Innovación</h2>
+		{% for post in site.categories.Innovacion %}
+			{% if post.archive == false %}
+			<div class="page-item">
+				<div class="col-sm-8">
+					<ul class="page-item-title">
+						<li><time class="timeago meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
+						<a class="meta pull-right comments-meta" href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+						<li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-12 page-item-body">
+					{{post.excerpt}}
+				</div>
+			</div>
+			{% endif %}
+		{% endfor %}
+
+		<h2>Tutoriales</h2>
 		{% for post in site.categories.Tutoriales %}
 			{% if post.archive == false %}
 			<div class="page-item">
