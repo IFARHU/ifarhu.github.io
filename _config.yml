@@ -1,6 +1,6 @@
 name: IFARHU DTI Blog
 description:  Blog de la Dirección de Tecnología Informática
-categories: ["Tecnología", "Tutoriales"]
+categories: ["Tecnologia", "Tutoriales", "Innovacion"]
 
 sass:
   sass_dir: assets/css/_sass
