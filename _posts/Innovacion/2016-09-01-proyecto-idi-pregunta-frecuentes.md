@@ -8,11 +8,12 @@ category: Innovacion
 author: angelo
 ---
 
-Conozca el Orígen de los IDI en el IFARHU
+**Conozca el Orígen de los IDI en el IFARHU**
 
 Antes de continuar con la lectura del siguiente artículo, le recomendamos ver el post de los [Viernes IDI en el IFARHU]({% post_url 2016-09-02-viernes-idi %}).
 
 **Propuesta - Elevator Pitch**
+
 La mejor manera de condensar los conceptos generales de una idea nueva e ingeniosa es atravez de un elevator pitch.
 
 | Sentencias | Descripción |
@@ -66,7 +67,8 @@ Algunas de estas tecnologias son:
 
 **Pantallas Principales del aplicativo (WIP)**
 
- - [Pagina Principal]({{site.url}}/assets/images/innovacion/index.png){:target="_blank"}
- - [Vista individual de una pregunta]({{site.url}}/assets/images/innovacion/post-single.png){:target="_blank"}
- - [Listado de preguntas por categoría]({{site.url}}/assets/images/innovacion/archive-categorias.png){:target="_blank"}
- - [Estadísticas de preguntas por categoría]({{site.url}}/assets/images/innovacion/categorias-index.png){:target="_blank"}
+ - <a href="{{site.url}}/assets/images/innovacion/index.png" target="_blank">Página Principal.</a>
+ - <a href="{{site.url}}/assets/images/innovacion/post-single.png" target="_blank">Vista individual de una pregunta.</a>
+ - <a href="{{site.url}}/assets/images/innovacion/archive-categorias.png" target="_blank">Listado de preguntas por categoría.</a>
+ - <a href="{{site.url}}/assets/images/innovacion/categorias-index.png" target="_blank">Estadísticas de preguntas por categoría.</a>
+
