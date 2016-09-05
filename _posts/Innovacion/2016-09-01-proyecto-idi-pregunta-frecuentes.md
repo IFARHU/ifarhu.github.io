@@ -82,7 +82,7 @@ Algunas de estas tecnologias son:
 
 #### Pantallas Principales del aplicativo (WIP)
 
- - [Pagina Principal]({{site.url}}/assets/images/innovacion/index.png)
- - [Vista individual de una pregunta]({{site.url}}/assets/images/innovacion/post-single.png)
- - [Listado de preguntas por categoría]({{site.url}}/assets/images/innovacion/archive-categorias.png)
- - [Estadísticas de preguntas por categoría]({{site.url}}/assets/images/innovacion/categorias-index.png)
+ - [Pagina Principal]({{site.url}}/assets/images/innovacion/index.png){:target="_blank"}
+ - [Vista individual de una pregunta]({{site.url}}/assets/images/innovacion/post-single.png){:target="_blank"}
+ - [Listado de preguntas por categoría]({{site.url}}/assets/images/innovacion/archive-categorias.png){:target="_blank"}
+ - [Estadísticas de preguntas por categoría]({{site.url}}/assets/images/innovacion/categorias-index.png){:target="_blank"}
