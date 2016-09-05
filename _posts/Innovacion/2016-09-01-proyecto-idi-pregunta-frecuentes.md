@@ -8,27 +8,11 @@ category: Innovacion
 author: angelo
 ---
 
-### Conocer el Orígen de los IDI en el IFARHU
+Conozca el Orígen de los IDI en el IFARHU
 
 Antes de continuar con la lectura del siguiente artículo, le recomendamos ver el post de los [Viernes IDI en el IFARHU]({% post_url 2016-09-02-viernes-idi %}).
 
-### Propuesta - Elevator Pitch
-
-**Para**: Los colaboradores nuevos y experienciados del IFARHU.
-
-**Quienes**: Se encuentran en la situación donde no hay una base de conocimiento central de consulta.
-
-**El**: **Sistema de Preguntas Frecuentes**.
-
-**Es una**: Plataforma web.
-
-**Que**: Permite de manera centralizada, consultar, crear y modificar preguntas que se encuentran en los distintos ambientes o departamentos de institución.
-
-**A diferencia de**: No contar con un departamento especializado para inducción de personal nuevo, o un repositorio de temas de interes particulares según departamento o Dirección.
-
-**Este producto**: Será alimentada por los mismos colaboradores que sienten que cuentan con la experiencia y conocimiento para ayudar los demás funcionarios. Así, eliminando la cantidad de llamadas o interrupciones durante la jornada de trabajo.
-
-### Propuesta - Elevator Pitch
+**Propuesta - Elevator Pitch**
 La mejor manera de condensar los conceptos generales de una idea nueva e ingeniosa es atravez de un elevator pitch.
 
 | Sentencias | Descripción |
@@ -41,46 +25,46 @@ La mejor manera de condensar los conceptos generales de una idea nueva e ingenio
 | A diferencia de | No contar con un departamento especializado para inducción de personal nuevo, o un repositorio de temas de interes particulares según departamento o Dirección. |
 | Este producto | Será alimentada por los mismos colaboradores que sienten que cuentan con la experiencia y conocimiento para ayudar los demás funcionarios. Así, eliminando la cantidad de llamadas o interrupciones durante la jornada de trabajo. |
 
-### Tecnologias Propuestas
+**Tecnologias Propuestas**
 
 Dado que este proyecto seguirá las reglas propuestas en [Viernes IDI en el ifarhu]({% post_url  2016-09-02-viernes-idi%}) personalmente he optado por utilizar tecnologías nuevas para asumir la responsabilidad de desarrollo.
 
 Algunas de estas tecnologias son:
 
-#### Frontend Frameworks
+**Frontend Frameworks**
 
 - Vue.js
 
-#### Backend Frameworks
+**Backend Frameworks**
 
 - Laravel 5.2
 
-#### Lenguajes
+**Lenguajes**
 
 - PHP
 - HTML 5
 - Javascript
 - CSS 3
 
-#### Dependency Managers
+**Dependency Managers**
 
 - Bower
 - NPM
 
-#### Task Managers
+**Task Managers**
 
 - Gulp
 
-#### Database Engine, Database Manager
+**Database Engine, Database Manager**
 
 - MySQL
 - Navicat Lite
 
-#### Project Management Paradigm
+**Project Management Paradigm**
 
 - Kanban
 
-#### Pantallas Principales del aplicativo (WIP)
+**Pantallas Principales del aplicativo (WIP)**
 
  - [Pagina Principal]({{site.url}}/assets/images/innovacion/index.png){:target="_blank"}
  - [Vista individual de una pregunta]({{site.url}}/assets/images/innovacion/post-single.png){:target="_blank"}
