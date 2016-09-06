@@ -24,7 +24,7 @@ La mejor manera de condensar los conceptos generales de una idea nueva e ingenio
 | Es una | Plataforma web. |
 | Que | Permite de manera centralizada, consultar, crear y modificar preguntas que se encuentran en los distintos ambientes o departamentos de institución. |
 | A diferencia de | No contar con un departamento especializado para inducción de personal nuevo, o un repositorio de temas de interes particulares según departamento o Dirección. |
-| Este producto | Será alimentada por los mismos colaboradores que sienten que cuentan con la experiencia y conocimiento para ayudar los demás funcionarios. Así, eliminando la cantidad de llamadas o interrupciones durante la jornada de trabajo. |
+| Este producto | Será alimentada por los mismos colaboradores que sienten que cuentan con la experiencia y conocimiento para ayudar los demás funcionarios. Así, bajando la cantidad de llamadas o interrupciones durante la jornada de trabajo. |
 
 **Tecnologias Propuestas**
 
