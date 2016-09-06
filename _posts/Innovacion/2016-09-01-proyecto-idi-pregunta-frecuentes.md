@@ -14,7 +14,7 @@ Antes de continuar con la lectura del siguiente artículo, le recomendamos ver e
 
 **Propuesta - Elevator Pitch**
 
-La mejor manera de condensar los conceptos generales de una idea nueva e ingeniosa es atravez de un elevator pitch.
+La mejor manera de condensar los conceptos generales de una idea nueva e ingeniosa es a través de un elevator pitch.
 
 | Sentencias | Descripción |
 | --- | --- |
