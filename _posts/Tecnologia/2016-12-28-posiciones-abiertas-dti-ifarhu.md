@@ -40,4 +40,4 @@ Como colaborador del IFARHU:
 - Acceder a entrenamiento y capacitación continua. Confiamos en que nuestro recurso humano es nuestro motor principal para el cambio.
 - Acceder a becas de estudio, mediante la Beca de Servidor Público.
 
-Si estás interesado, puedes escribirnos a [d.garcia@ifarhu.gob.pa](mailto:d.garcia@ifarhu.gob.pa) con tu Hoja de Vida, la posición a la que aspiras, el salario al que aspiras y una breve descripción por la que consideras que deberías ser parte de la DTI.
+Si estás interesado, puedes escribirnos a [d.garcia@ifarhu.gob.pa](mailto:d.garcia@ifarhu.gob.pa) con tu Hoja de Vida (en formato PDF u ODT, no Word), la posición a la que aspiras, el salario al que aspiras y una breve descripción por la que consideras que deberías ser parte de la DTI.
