@@ -20,6 +20,7 @@ La Dirección de Tecnología Informática del IFARHU está en búsqueda de perso
 
 ## Perfil que buscamos
 
+- Debe ser panameño, mayor de edad.
 - La persona debe ser proactiva, con buena actitud y deseos de superación.
 - Valoramos aptitudes y competencias sobre experiencia. **Estudiantes son bienvenidos**.
 - Estudiantes o gradudados en Ingeniería Informática, Desarrollo de Software, Telecomunicaciones o carreras afines.
