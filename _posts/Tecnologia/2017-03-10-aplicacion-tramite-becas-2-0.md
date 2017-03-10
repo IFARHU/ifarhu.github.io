@@ -71,6 +71,8 @@ Básicamente el sistema tiene tres fuentes de información y sigue un ciclo de l
 
 Ya que la consulta al Tribunal Electoral tiende a ser un poco lenta y la consulta a nuestra Bases de Datos puede estar un poco colapsada en estos momentos (hablando de que son cientos de usuarios ingresando cientos de miles de datos en pocas semanas), sopesamos un poco la carga utilizando esta forma, lo que nos lleva un tiempo de respuesta regularmente de unos pocos milisegundos.
 
+> **Nota:** La información que se almacena **no es la proveniente del Tribunal Electoral**. El sistema hace una doble-validación con el usuario (además de utilizar algoritmos de distanciamiento entre palabras) y si el mismo valida que la misma es correcta, almacena que la persona con el beneficio consultado ya fue validado con el Tribunal Electoral. Esto almacena internamente un listado de beneficiarios ya verificados / validados.
+
 A nivel del diseño no nos tuvimos que preocupar mucho. Todos los aplicativos del IFARHU utilizan un [Taboga](https://github.com/ifarhu/taboga), un sistema de templates que nos permite uniformidad en los diseños.
 
 <img src="/assets/images/2017_03_10_ss1.png" alt="" width="100%" />
