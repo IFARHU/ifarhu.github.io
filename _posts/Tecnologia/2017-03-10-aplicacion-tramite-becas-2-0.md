@@ -21,7 +21,7 @@ Muchos de estos errores son atribuíbles a la capa 8 (el humano que los desarrol
 
 Pero hay dos problemas:
 
-1. Por temas de periodo fiscal, no podríamos ejecutar nada hasta que el periodo actual cerrara (en noviembre), para no afectar los beneficios vigentes (como cancelar los que estén errados). Esto nos daba poco más de un mes: del 22 de noviembre hasta el 31 de diciembre, sancando los días libres del mes de diciembre.
+1. Por temas de periodo fiscal, no podríamos ejecutar nada hasta que el periodo actual cerrara (en noviembre), para no afectar los beneficios vigentes (como cancelar los que estén errados). Esto nos daba poco más de un mes: del 22 de noviembre hasta el 31 de diciembre, sacando los días libres del mes de diciembre.
 1. Eran necesarias integraciones (por ejemplo, con Tribunal Electoral) para facilitar el flujo de tramitación.
 
 ## Entender el Producto Mínimo Viable (MVP)
